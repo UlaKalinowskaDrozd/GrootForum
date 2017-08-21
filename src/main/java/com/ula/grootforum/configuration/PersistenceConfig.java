@@ -35,8 +35,8 @@ public class PersistenceConfig {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/grrr");
-        dataSource.setUsername("root");
-        dataSource.setPassword("Ulta&pierogi");
+        dataSource.setUsername("username");
+        dataSource.setPassword("password");
         return dataSource;
     }
 
